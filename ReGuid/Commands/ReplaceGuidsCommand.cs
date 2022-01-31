@@ -46,7 +46,11 @@ namespace ReGuid
         {
             StringBuilder output = new StringBuilder(input);
 
-            foreach (Match match in guidExpression.Matches(input))
+            IEnumerable<Match> matches = guidExpression.Matches(input)
+                .Cast<Match>()
+                .OrderByDescending(x => x.Index);
+
+            foreach (Match match in matches)
             {
                 output.Remove(match.Index, match.Length);
                 output.Insert(match.Index, ReGuidPackage.GetNewGuid());

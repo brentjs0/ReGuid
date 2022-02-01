@@ -29,7 +29,7 @@
 			</Button>
 			<Button guid="ReGuid" id="ReplaceGuidsCommand" priority="0x0101" type="Button">
 				<Parent guid="ReGuid" id="ReGuidMenuGroup" />
-					  <Icon guid="ImageCatalogGuid" id="PasteReplace" />
+				<Icon guid="ImageCatalogGuid" id="PasteReplace" />
 				<CommandFlag>IconIsMoniker</CommandFlag>
 				<Strings>
 					<ButtonText>Replace GUIDs in Selection</ButtonText>

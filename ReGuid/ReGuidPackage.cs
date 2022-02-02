@@ -7,7 +7,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.InteropServices;
 using System.Threading;
-using System.Threading.Tasks;
 
 namespace ReGuid
 {
@@ -25,7 +24,7 @@ namespace ReGuid
             await this.RegisterCommandsAsync();
         }
 
-        public static async Task<IEnumerable<SnapshotSpan>> GetCurrentSelectionsAsync(DocumentView docView)
+        public static IEnumerable<SnapshotSpan> GetCurrentSelections(DocumentView docView)
         {
             if (docView?.TextView?.Selection?.SelectedSpans == null)
             {

@@ -17,7 +17,7 @@ namespace ReGuid
             DocumentView docView = await VS.Documents.GetActiveDocumentViewAsync();
 
             int insertionOffset = 0;
-            IEnumerable<SnapshotSpan> selectionSpans = await ReGuidPackage.GetCurrentSelectionsAsync(docView);
+            IEnumerable<SnapshotSpan> selectionSpans = ReGuidPackage.GetCurrentSelections(docView);
             foreach (SnapshotSpan selectionSpan in selectionSpans)
             {
                 string replacementText = ReGuidPackage.GetNewGuid();

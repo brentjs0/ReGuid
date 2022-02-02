@@ -9,17 +9,7 @@ namespace ReGuid
     {
         public const string Id = "ReGuid.1037aad6-42ae-43db-a802-93991c0bbc7c";
         public const string Name = "ReGuid";
-        public const string Description = @"Insert new GUIDs or replace existing GUIDs in the current selection.
-
-- Insert GUID
-  - Insert a new GUID at the current selection(s).
-  - Edit > Insert GUID
-  - Ctrl+Shift+K, Ctrl+Shift+K
-
-- Replace GUIDs in Selection
-  - Replaces all existing GUIDs inside the current selection(s) with new GUIDs.
-  - Edit > Replace GUIDs in Selection
-  - Ctrl+Shift+Alt+K";
+        public const string Description = @"Insert new GUIDs or replace existing GUIDs in the current selection.";
         public const string Language = "en-US";
         public const string Version = "1.0";
         public const string Author = "Brent Seger";

@@ -8,6 +8,6 @@ A Visual Studio 2022 extension. Insert new GUIDs or replace existing GUIDs in th
   - Ctrl+Shift+K, Ctrl+Shift+K
 
 - Replace GUIDs in Selection
-  - Replaces all existing GUIDs inside the current selection(s) with new GUIDs.
+  - Replace all existing GUIDs inside the current selection(s) with new GUIDs.
   - Edit > Replace GUIDs in Selection
   - Ctrl+Shift+Alt+K

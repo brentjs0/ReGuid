@@ -50,6 +50,5 @@ Configuration is available at the following menu path: Tools > Options > ReGuid 
 
 - Version 1.1 (2022/02/06)
   - Added configuration options.
-
 - Version 1.2 (2022/02/07)
   - Set initial replacement format to "Preserve."

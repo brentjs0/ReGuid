@@ -11,7 +11,7 @@ namespace ReGuid
         public const string Name = "ReGuid";
         public const string Description = @"Insert new GUIDs or replace existing GUIDs in the current selection.";
         public const string Language = "en-US";
-        public const string Version = "1.0";
+        public const string Version = "1.1";
         public const string Author = "Brent Seger";
         public const string Tags = "";
     }

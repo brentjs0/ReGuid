@@ -9,9 +9,9 @@ namespace ReGuid
     {
         public const string Id = "ReGuid.1037aad6-42ae-43db-a802-93991c0bbc7c";
         public const string Name = "ReGuid";
-        public const string Description = @"Insert new GUIDs or replace existing GUIDs in the current selection.";
+        public const string Description = @"Insert new GUIDs or replace existing GUIDs in the current selection. Works with multiple carets as well as multiple selections.";
         public const string Language = "en-US";
-        public const string Version = "1.1";
+        public const string Version = "1.2";
         public const string Author = "Brent Seger";
         public const string Tags = "";
     }

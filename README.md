@@ -6,20 +6,22 @@ A Visual Studio 2022 extension. Insert new GUIDs or replace existing GUIDs in th
 ## Commands
 
 ### Insert GUID
-![InsertGUIDAnimation.gif](Assets/InsertGUIDAnimation.gif)
  - **Menu Path**: Edit > Insert GUID
  - **Keyboard Shortcut**: Ctrl+Shift+K, Ctrl+Shift+K
  - Inserts a new GUID at the current caret position(s)/selection(s).
 
+![InsertGUIDAnimation.gif](Assets/InsertGUIDAnimation.gif)
 
 ### Replace GUIDs in Selection
-![ReplaceGUIDsAnimation.gif](Assets/ReplaceGUIDsAnimation.gif)
  - **Menu Path**: Edit > Replace GUIDs in Selection
  - **Keyboard Shortcut**: Ctrl+Shift+Alt+K
  - Replaces existing GUIDs inside the current selection(s) with new GUIDs.
  - Finds uppercase and lowercase GUIDs in five different formats.
 
-## Configuration
+![ReplaceGUIDsAnimation.gif](Assets/ReplaceGUIDsAnimation.gif)
+
+## Supported GUID Formats
+
  Format | Example
  -------|-----------------------------------------------------------------------
  D      | `00000000-0000-0000-0000-000000000000`
@@ -27,6 +29,10 @@ A Visual Studio 2022 extension. Insert new GUIDs or replace existing GUIDs in th
  B      | `{00000000-0000-0000-0000-000000000000}`
  P      | `(00000000-0000-0000-0000-000000000000)`
  X      | `{0x00000000,0x0000,0x0000,{0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00}}`
+
+## Configuration
+
+Configuration is available at the following menu path: Tools > Options > ReGuid > General
 
 ### "Insert GUID" Command Options
  - **Case**: Whether to insert GUIDs in uppercase or lowercase. Defaults to lowercase.
@@ -44,3 +50,6 @@ A Visual Studio 2022 extension. Insert new GUIDs or replace existing GUIDs in th
 
 - Version 1.1 (2022/02/06)
   - Added configuration options.
+
+- Version 1.2 (2022/02/07)
+  - Set initial replacement format to "Preserve."

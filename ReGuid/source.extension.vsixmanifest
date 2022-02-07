@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="ReGuid.1037aad6-42ae-43db-a802-93991c0bbc7c" Version="1.1" Language="en-US" Publisher="Brent Seger" />
+        <Identity Id="ReGuid.1037aad6-42ae-43db-a802-93991c0bbc7c" Version="1.2" Language="en-US" Publisher="Brent Seger" />
         <DisplayName>ReGuid</DisplayName>
-        <Description xml:space="preserve">Insert new GUIDs or replace existing GUIDs in the current selection.</Description>
+        <Description xml:space="preserve">Insert new GUIDs or replace existing GUIDs in the current selection. Works with multiple carets as well as multiple selections.</Description>
         <MoreInfo>https://github.com/brentjs0/ReGuid</MoreInfo>
         <Icon>Resources\Icon.png</Icon>
         <PreviewImage>Resources\Icon.png</PreviewImage>

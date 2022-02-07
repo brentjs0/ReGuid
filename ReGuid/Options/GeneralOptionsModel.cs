@@ -30,7 +30,7 @@ namespace ReGuid.Options
         [Description("The format in which to render replaced GUIDs. 'Preserve' will keep the existing format. Other options correspond to the C# Guid.ToString() format specifiers.")]
         [DefaultValue(ReplacementFormats.Preserve)]
         [TypeConverter(typeof(EnumConverter))]
-        public ReplacementFormats ReplacementFormat { get; set; } = ReplacementFormats.D_WithHyphens;
+        public ReplacementFormats ReplacementFormat { get; set; } = ReplacementFormats.Preserve;
 
         [Category("Replace")]
         [DisplayName("Replace Format D GUIDs")]
